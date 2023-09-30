@@ -1,6 +1,6 @@
 QOSF Task cohort 8
 
-Problem Statement
+## Problem Statement
 
 Task1: Find the primes numbers
 
@@ -28,3 +28,33 @@ print(A)
 
 “3,15”
 ```
+## Solution:
+
+- The find_pair function loops through `i+1` for every i (i = 0 to N). And calculate the sum of the numbers using `qadd`. The adder in qadd is implemeted using qft and iqft. 
+
+- The `find_pair` function takes `target sum ` and an `arr` and returns the pair whose sum is equivalent to the target. 
+
+## Example:
+```
+target = 24
+arr = [1,3,5,7,11,13,15]
+pair = find_pair (target, arr)
+print(f"\n Target Sum {target} can be achieved by sum of : {pair}")
+
+```
+
+```
+Target Sum 24 can be achieved by sum of : (11, 13)
+```
+
+*Note*: The image of the circuit is stored in file `circuit_img.tex`.
+
+## References:
+
+[Implementing binary adder](https://www.electronics-tutorials.ws/combination/comb_7.html)
+[Draper Adder Qiskit](https://qiskit.org/documentation/stubs/qiskit.circuit.library.DraperQFTAdder.html)
+[Quantum Adder](https://quantumcomputing.stackexchange.com/questions/32848/trying-to-understand-a-quantum-adder)
+[Drapper QFT Adder](https://docs.quantum-computing.ibm.com/api/qiskit/qiskit.circuit.library.DraperQFTAdder)
+
+
+
