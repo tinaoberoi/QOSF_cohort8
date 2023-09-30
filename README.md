@@ -52,8 +52,11 @@ Target Sum 24 can be achieved by sum of : (11, 13)
 ## References:
 
 [Implementing binary adder](https://www.electronics-tutorials.ws/combination/comb_7.html)
+
 [Draper Adder Qiskit](https://qiskit.org/documentation/stubs/qiskit.circuit.library.DraperQFTAdder.html)
+
 [Quantum Adder](https://quantumcomputing.stackexchange.com/questions/32848/trying-to-understand-a-quantum-adder)
+
 [Drapper QFT Adder](https://docs.quantum-computing.ibm.com/api/qiskit/qiskit.circuit.library.DraperQFTAdder)
 
 
